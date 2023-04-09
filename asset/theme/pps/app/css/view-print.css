@@ -1,0 +1,218 @@
+@page {
+        size: 8.27in 11.69in; 
+		margin: .2in .4in .2in .4in;
+        mso-header-margin: .2in;
+        mso-footer-margin: .2in;
+		mso-paper-source: 0;
+}
+
+<!-- PRINT CSS -->
+
+<!--	thead { display: table-header-group; } -->
+<!--	tfoot { display: table-footer-group; } -->
+
+thead {
+	width: 100%;
+	vertical-align: top;
+	margin-left: 0;
+}
+
+tfoot {
+	position: fixed;
+	width: 100%;
+}
+
+@media print {
+thead { display: table-header-group; }
+tfoot { display: table-footer-group; }
+}
+@media screen {
+thead { display: block; }
+tfoot { display: block; }
+}
+
+.pagebreak { page-break-before: always; }
+
+<!-- PRINT CSS -->
+
+
+h1 {
+        font-family:"Times New Roman", Times, serif;
+		font-size:26px;
+        text-align:center;
+}
+
+h2 {
+        font-family:"Times New Roman", Times, serif;
+        font-size:20px;
+		line-height:2px;
+		text-align:center;
+}
+
+h3 {
+        font-family:"Times New Roman", Times, serif;
+		font-size:24px;
+		line-height:10px;
+}
+
+.h4 {
+        font-family:"Times New Roman", Times, serif;
+        font-size:24px;
+		font-weight:bold;
+		vertical-align:bottom;
+		text-decoration:underline;
+        text-align:center;
+}
+
+.h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+        font-weight:bold;
+}
+
+.h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+}
+
+.h7 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:13px;
+}
+
+.h8 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+}
+
+.p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:11px;
+        color:#000000;
+}
+.p2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+		font-weight:bold;
+        color:#000000;
+}
+.p3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+		letter-spacing:0.5px;
+        color:#000000;
+}
+.p4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+		padding:0px;
+}
+.p5 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+		font-weight:bold;
+		text-decoration:underline;
+}
+
+.thead {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        font-weight:bold;
+        color:#000000;
+        text-align:center;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        border-bottom: 3px double;
+        border-color: #000000;
+}
+.thead-r {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        font-weight:bold;
+        color:#000000;
+        text-align:center;
+        border-top: 1px solid;
+        border-bottom: 3px double;
+        border-color: #000000;
+}
+
+.tfield {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        border-right:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-l {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        border-right:1px solid;
+		border-bottom:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-lr {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+		border-bottom:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-r {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-b {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        border-right:1px solid;
+        border-bottom:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-rb {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        border-bottom:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-bt {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        border-left:1px solid;
+		border-right:1px solid;
+        border-bottom:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+.tfield-rbt {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#000000;
+        border-bottom:1px solid;
+        border-color: #000000;
+        padding:4px;
+		vertical-align:text-top;
+}
+
+.sign-b {
+        border-bottom:1px solid;
+		border-bottom-style:dotted;
+        border-color:#000000;
+}
