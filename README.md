@@ -1,4 +1,6 @@
-app-percetakan
+SIKAP - Sistem Informasi Kedatangan dan Keberangkatan Kapal
 ==============
 
-Aplikasi Sederhana Untuk Manajemen Pembayaran Pada Usaha Percetakan
+Aplikasi ini digunakan oleh pelabuhan perikanan untuk monitoring kedatangan dan keberangkatan kapal.
+
+jika berminat silahkan hubungi catur.crh@gmail.com
